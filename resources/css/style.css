@@ -3,6 +3,9 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* Menu */
+
 #menu {
     position: fixed;
     height: 4rem;
@@ -30,3 +33,23 @@ nav a {
     vertical-align: middle;
     padding: 0 1rem;
 }
+
+/* Opener */
+
+#opener {
+    text-align: center;
+    background-color: gray;
+}
+
+#opener img{
+    width: 60%;
+    vertical-align: middle;
+}
+
+#opener .openertext{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Information */
+
