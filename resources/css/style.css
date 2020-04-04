@@ -53,3 +53,36 @@ nav a {
 
 /* Information */
 
+.multi-container {
+    display: flex;
+    width: 100%;
+}
+
+.main-pic-box {
+    width: 60%;
+}
+
+.main-pic-box img{
+    width: 100%;
+}
+
+
+.stacked-content-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 35%;
+    vertical-align: top;
+}
+
+.content-box img{
+    width: 35%;
+    display: inline-block;
+}
+
+.content-text{
+    width: 55%;
+    display: inline-block;
+}
+
+/* Gallery */
